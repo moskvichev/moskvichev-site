@@ -1,3 +1,15 @@
+/* Обычный */
+@font-face {
+  font-family: 'BigFont';
+  src: url(./fonts/14717.otf);
+}
+
+/* Жирный */
+@font-face {
+  font-family: 'Winston';
+  src: url(./fonts/11081.ttf);
+}
+
 body {
   background-image: url('./img/bg-img.jpeg');
   background-size: cover;
@@ -120,6 +132,16 @@ body {
 h1,
 p {
   color: #fff;
+}
+
+.cite {
+  font-family: 'BigFont';
+  font-size: 40px;
+}
+
+.winston {
+  font-family: 'Winston';
+  font-size: 50px;
 }
 
 /*=============== GOOGLE FONTS ===============*/
