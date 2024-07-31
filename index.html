@@ -4,17 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <title>Moskvichev</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <p>Hi interesting people!</p>
-    <div class="search">
-      <input type="text" class="input" placeholder="Search..." />
-      <button class="reset">
-        <div class="handle"></div>
-      </button>
-    </div>
+    <header class="main-header">
+      <nav>
+        <div class="hamburger-menu">
+          <input id="menu__toggle" type="checkbox" />
+          <label class="menu__btn" for="menu__toggle">
+            <span></span>
+          </label>
+      
+          <ul class="menu__box">
+            <li><a class="menu__item" href="#">Главная</a></li>
+            <li><a class="menu__item" href="#">Проекты</a></li>
+            <li><a class="menu__item" href="#">Команда</a></li>
+            <li><a class="menu__item" href="#">Блог</a></li>
+            <li><a class="menu__item" href="#">Контакты</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="search">
+        <input type="text" class="input" placeholder="Search..." />
+        <button class="reset">
+          <div class="handle"></div>
+        </button>
+      </div>
+      <div class="authorize">ENTER</div>
+    </header>
+    <main>
+      <h1>Hello World!</h1>
+      <p>
+        <blockquote>
+          'Success consists of going from failure to failure without loss of enthusiasm.'
+        </blockquote>
+        <br /><span>Winston Churchill</span>
+      </p>
+    </main>
+    <footer class="main-footer"></footer>
   </body>
   <script src="search.js"></script>
 </html>
