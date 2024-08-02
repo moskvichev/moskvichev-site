@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+    <link rel="preload" href="./fonts/14717.otf" as="font" type="font/woff2" />
     <title>Moskvichev</title>
   </head>
   <body>
@@ -15,13 +16,13 @@
           <label class="menu__btn" for="menu__toggle">
             <span></span>
           </label>
-      
+
           <ul class="menu__box">
-            <li><a class="menu__item" href="#">Главная</a></li>
-            <li><a class="menu__item" href="#">Проекты</a></li>
-            <li><a class="menu__item" href="#">Команда</a></li>
-            <li><a class="menu__item" href="#">Блог</a></li>
-            <li><a class="menu__item" href="#">Контакты</a></li>
+            <li><a class="menu__item" href="#">Main</a></li>
+            <li><a class="menu__item" href="#">Projects</a></li>
+            <li><a class="menu__item" href="#">News</a></li>
+            <li><a class="menu__item" href="#">Blog</a></li>
+            <li><a class="menu__item" href="#">Contacts</a></li>
           </ul>
         </div>
       </nav>
@@ -34,15 +35,16 @@
       <div class="authorize">ENTER</div>
     </header>
     <main>
-      <h1>Hello World!</h1>
-      <p>
-        <blockquote class="cite">
-          "Success consists of going from failure to failure, <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;without loss of enthusiasm."
+      <div class="cite-block">
+        <blockquote>
+          <p class="cite">"Success consists of going from failure to failure,</p>
+          <p class="cite">without loss of enthusiasm."</p>
+          <p class="winston">Winston Churchill</p>
         </blockquote>
-        <br /><span class="winston">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Winston Churchill</span>
-      </p>
+      </div>
     </main>
     <footer class="main-footer"></footer>
   </body>
+  <script src="script.js"></script>
   <script src="search.js"></script>
 </html>
