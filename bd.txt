@@ -1,0 +1,2 @@
+login: moskvichev
+psw: 123456zxC
